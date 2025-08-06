@@ -8,35 +8,47 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Minecraft Calculator Theme Colors */
+    --background: 40 100% 89%; /* #FFDFC4 */
+    --foreground: 29 38% 53%; /* #AC8B64 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 100% 89%;
+    --card-foreground: 29 38% 53%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 100% 89%;
+    --popover-foreground: 29 38% 53%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 29 38% 53%; /* #AC8B64 */
+    --primary-foreground: 40 100% 89%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 35 45% 73%; /* #ECBF83 */
+    --secondary-foreground: 29 38% 53%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 35 45% 73%;
+    --muted-foreground: 29 38% 53%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 45% 73%;
+    --accent-foreground: 29 38% 53%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 40 100% 89%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 29 38% 53%;
+    --input: 35 45% 73%;
+    --ring: 29 38% 53%;
 
-    --radius: 0.5rem;
+    --radius: 0rem; /* Sharp corners for pixelated look */
+    
+    /* Calculator specific colors */
+    --calculator-bg: 40 100% 89%; /* #FFDFC4 */
+    --calculator-button: 35 45% 73%; /* #ECBF83 */
+    --calculator-text: 29 38% 53%; /* #AC8B64 */
+    --calculator-button-hover: 35 45% 68%;
+    --calculator-button-active: 35 45% 63%;
+    
+    /* Pixelated shadows */
+    --pixel-shadow: 4px 4px 0px hsl(var(--calculator-text));
+    --pixel-shadow-hover: 2px 2px 0px hsl(var(--calculator-text));
 
     --sidebar-background: 0 0% 98%;
 
